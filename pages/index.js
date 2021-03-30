@@ -1,17 +1,15 @@
 import Head from 'next/head'
+import Page from '../components/Page'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>egstep</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Page>    
+      <div className={styles.container}>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">egstep</a>
+          Welcome to <a href="https://egstep.com">egstep</a>
         </h1>
 
         <p className={styles.description}>
@@ -60,5 +58,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    </Page>
   )
 }

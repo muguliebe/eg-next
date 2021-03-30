@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Page from '../components/Page'
 import styles from '../styles/Home.module.css'
 

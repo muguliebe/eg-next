@@ -38,7 +38,15 @@ export default function Home() {
             <p>code with Express.js</p>
           </a>
 
+          <a
+            href="https://next.egstep.com"
+            className={styles.card}
+          >
+            <h3>Study Next &rarr;</h3>
+            <p>code with next.js</p>
+          </a>
         </div>
+
       </main>
 
       <footer className={styles.footer}>

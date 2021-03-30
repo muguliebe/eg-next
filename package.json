@@ -2,10 +2,11 @@
   "name": "eg-next",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start:prd": "NODE_ENV=prd next start -p 3080",
+    "start:prd": "next start -p 3080",
     "start": "next start"
   },
   "dependencies": {

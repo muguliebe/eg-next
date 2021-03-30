@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start:prd": "next start -p 3080",
     "start": "next start"
   },
   "dependencies": {

@@ -13,19 +13,19 @@ export default function Home() {
             </div>
             <div>
               <div className="text-xl font-medium eg">egstep</div>
-              <p className="text-gray-500">zany's playground</p>
+              <p className="text-gray-500"><div className={styles.name}> zany's </div> playground</p>
             </div>
           </div>
 
 
           <div className={styles.grid}>
             <a href="https://blog.egstep.com" className={styles.card}>
-              <h3>blog &rarr;</h3>
+              <h3 className="font-bold">blog &rarr;</h3>
               <p>programming diary</p>
             </a>
 
             <a href="https://apij.egstep.com" className={styles.card}>
-              <h3>example Spring &rarr;</h3>
+              <h3 className="font-bold">example Spring &rarr;</h3>
               <p>code with spring boot</p>
             </a>
 
@@ -33,7 +33,7 @@ export default function Home() {
               href="https://api.egstep.com"
               className={styles.card}
             >
-              <h3>example Node &rarr;</h3>
+              <h3 className="font-bold">example Node &rarr;</h3>
               <p>code with Express.js</p>
             </a>
 
@@ -41,7 +41,7 @@ export default function Home() {
               href="https://next.egstep.com"
               className={styles.card}
             >
-              <h3>Study Next &rarr;</h3>
+              <h3 className="font-bold">Study Next &rarr;</h3>
               <p>code with next.js</p>
             </a>
           </div>
@@ -49,14 +49,15 @@ export default function Home() {
         </main>
 
         <footer className={styles.footer}>
-          <a
-            href="https://egstep.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <img src="/egstep_large.png" alt="egstep" className={styles.logo} />
-          </a>
+          <div className="bg-gray-900">
+            <div className="flex flex-wrap items-center justify-between p-3 m-auto">
+              <div className="container mx-auto flex flex-col flex-wrap items-center justify-between">
+                <div className="flex mx-auto text-white text-center">
+                  egstep © 2021
+                </div>
+              </div>
+            </div>
+          </div>
         </footer>
       </div>
     </Page>

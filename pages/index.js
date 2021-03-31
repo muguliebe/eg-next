@@ -7,18 +7,16 @@ export default function Home() {
       <div className={styles.container}>
 
         <main className={styles.main}>
-          <h1 className={styles.title}>
-            Welcome to
-            <a href="https://egstep.com"
-            className={styles.link}>
-              <span> egstep</span>
-            </a>
-          </h1>
+          <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+            <div className="flex-shrink-0">
+              <img className="h-12 w-12" src="/egstep_large.png" alt="ChitChat Logo"/>
+            </div>
+            <div>
+              <div className="text-xl font-medium eg">egstep</div>
+              <p className="text-gray-500">zany's playground</p>
+            </div>
+          </div>
 
-          <p className={styles.description}>
-            playground by
-            <code className={styles.code}>@zany</code>
-          </p>
 
           <div className={styles.grid}>
             <a href="https://blog.egstep.com" className={styles.card}>

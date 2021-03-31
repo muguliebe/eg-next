@@ -18,12 +18,9 @@
     align-items: center;
 }
 
-.link:link {
- color: #70AAA1;
-}
-
+.link:link,
 .link:visited {
-    color: #70AAA1;
+  color: #70AAA1;
 }
 
 .footer {

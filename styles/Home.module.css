@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FDF7E3;
+    color: #61677C;
 }
 
 .main {
@@ -14,6 +16,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.link:link {
+ color: #70AAA1;
+}
+
+.link:visited {
+    color: #70AAA1;
 }
 
 .footer {
@@ -63,12 +73,12 @@
 }
 
 .code {
-    background: #fafafa;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0.75rem;
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+    color: #F5BF2E;
 }
 
 .grid {

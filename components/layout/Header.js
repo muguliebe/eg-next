@@ -1,4 +1,5 @@
-import GoogleAnalyticsHOC from '../lib/gtag'
+import GoogleAnalyticsHOC from '../../lib/gtag'
+import Navbar from '../navbar/Navbar'
 
 export default function Header() {
   return (
@@ -8,6 +9,7 @@ export default function Header() {
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta property="og:title" content="egstep" key="title"/>
       <GoogleAnalyticsHOC/>
+      <Navbar/>
     </header>
   )
 }

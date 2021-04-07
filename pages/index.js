@@ -1,4 +1,4 @@
-import Page from '../components/Page'
+import Page from '../components/layout/Page'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -7,16 +7,14 @@ export default function Home() {
       <div className={styles.container}>
 
         <main className={styles.main}>
-          <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-            <div className="flex-shrink-0">
-              <img className="h-12 w-12" src="/egstep_large.png" alt="ChitChat Logo"/>
-            </div>
-            <div>
-              <div className="text-xl font-medium eg">egstep</div>
-              <p className="text-gray-500"><div className={styles.name}> zany's </div> playground</p>
-            </div>
-          </div>
+          <h1 className={styles.title}>
+            <span className={styles.eg}>egstep</span>
+          </h1>
 
+          <p className={styles.description}>
+            playground by
+            <code className={styles.code}>@zany</code>
+          </p>
 
           <div className={styles.grid}>
             <a href="https://blog.egstep.com" className={styles.card}>

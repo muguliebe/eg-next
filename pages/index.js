@@ -35,13 +35,13 @@ export default function Home() {
               <p>code with Express.js</p>
             </a>
 
-            <a
+            {/* <a
               href="https://next.egstep.com"
               className={styles.card}
             >
               <h3 className="font-bold">Study Next &rarr;</h3>
               <p>code with next.js</p>
-            </a>
+            </a> */}
           </div>
 
         </main>

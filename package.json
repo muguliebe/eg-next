@@ -16,6 +16,5 @@
     "postcss": "^8.2.9",
     "tailwindcss": "^2.0.4"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

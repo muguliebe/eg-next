@@ -1,7 +1,7 @@
 import Page from '../../components/layout/Page'
 
 export async function getStaticProps(context) {
-  const res  = await fetch(`https://apij.egstep.com`)
+  const res  = await fetch(`https://api.github.com/users`)
   const data = await res.json()
 
   if (!data) {
